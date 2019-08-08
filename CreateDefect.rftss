@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rational.test.ft.visualscript:RFTScript xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rational.test.ft.visualscript="http:///com/ibm/rational/test/ft/visualscript.ecore" xmlns:com.ibm.rational.test.ft.visualscript.common="http:///com/ibm/rational/test/ft/visualscript/common.ecore" name="CreateDefect" package="" userName="Administrator" date="Jul 21, 2011" time="12:12:35 PM" sinceDate="2011/07/21" hostName="WinNT Version 5.1  Build 2600 (S)" keywordSteps="">
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:Comment" value="// This is a test script to create a defect in Rational Team Concert and test various HTML controls including the dojo controls in the test application." elementType="Comment"/>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="startApp" elementType="ScriptMethod">
+    <clearscript test="start the &quot;RTC Server&quot; application"/>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;RTC Server&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript.common:TopLevelWindowGroup" groupName="Login - Jazz Team Server" topLevelWindow="//@topLevelWindows.0">
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="text_j_username" type="TextGuiTestObject" role="Text" elementType="TestObject" domain="Html" controlName="j_username" topLevelWindow="//@topLevelWindows.0">
+      <clearscript test="setText the &quot;j_username&quot; variable into the &quot;j_username&quot; textbox"/>
+      <action name="setText">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:DataPool" dpName="dpString(&quot;j_username&quot;)" elementType="Datapool" initialValue=""/>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="text_j_password" type="TextGuiTestObject" role="Text" elementType="TestObject" domain="Html" controlName="j_password" topLevelWindow="//@topLevelWindows.0">
+      <clearscript test="setText the &quot;j_password&quot; variable into the &quot;j_password&quot; textbox"/>
+      <action name="setText">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:DataPool" dpName="dpString(&quot;j_password&quot;)" elementType="Datapool" initialValue=""/>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="button_logInsubmit" type="GuiTestObject" role="Button" elementType="TestObject" domain="Html" controlName="Log Insubmit" topLevelWindow="//@topLevelWindows.0">
+      <clearscript test="click the &quot;Log Insubmit&quot; button"/>
+      <action name="click"/>
+    </testElements>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript.common:TopLevelWindowGroup" groupName="Project Areas - Change and Configuration Management: Select the project area" topLevelWindow="//@topLevelWindows.1">
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="link_jazz_ui_ResourceLink_0" type="GuiTestObject" role="Link" elementType="TestObject" domain="Html" controlName="jazz_ui_ResourceLink_0" topLevelWindow="//@topLevelWindows.1">
+      <clearscript test="click the &quot;jazz_ui_ResourceLink_0&quot; link"/>
+      <action name="click"/>
+    </testElements>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript.common:TopLevelWindowGroup" groupName="Project Dashboard: Rational Functional Tester:Create a new defect" topLevelWindow="//@topLevelWindows.2">
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="link_jazz_ui_MenuPopup_2" type="GuiTestObject" role="Link" elementType="TestObject" domain="Html" controlName="jazz_ui_MenuPopup_2" topLevelWindow="//@topLevelWindows.2">
+      <clearscript test="click the &quot;jazz_ui_MenuPopup_2&quot; link"/>
+      <action name="click"/>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="html_jazz_ui_internal_ImgMenuI" type="GuiTestObject" role="Html" elementType="TestObject" domain="Html" controlName="jazz_ui_internal_ImgMenuItem_9_text" topLevelWindow="//@topLevelWindows.2">
+      <clearscript test="click the &quot;jazz_ui_internal_ImgMenuItem_9_text&quot; html"/>
+      <action name="click">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="atPoint" elementType="ScriptMethod">
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="10" elementType="Value" valueType="Integer"/>
+            </argument>
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="11" elementType="Value" valueType="Integer"/>
+            </argument>
+          </testelement>
+        </argument>
+      </action>
+    </testElements>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript.common:TopLevelWindowGroup" groupName="Specify the defect details. The field values are taken from the datapool." topLevelWindow="//@topLevelWindows.3">
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:Comment" value="// Sepcify the defect summary" elementType="Comment"/>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="text_htmlINPUTText" type="TextGuiTestObject" role="Text" elementType="TestObject" domain="Html" controlName="Html.INPUT.text" topLevelWindow="//@topLevelWindows.3">
+      <clearscript test="setText the &quot;HtmlINPUTText&quot; variable into the &quot;Html.INPUT.text&quot; textbox"/>
+      <action name="setText">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:DataPool" dpName="dpString(&quot;HtmlINPUTText&quot;)" elementType="Datapool" initialValue=""/>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:Comment" value="// Select the severity of the defect from the list" elementType="Comment"/>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="list_unclassifiedS4MinorS3Norm" type="SelectGuiSubitemTestObject" role="List" elementType="TestObject" domain="Html" controlName="Unclassified S4-Minor S3-Normal S2-Major S1-Critical S1-Blocker" topLevelWindow="//@topLevelWindows.3">
+      <clearscript test="select the &quot;Unclassified S4-Minor S3-Normal S2-Major S1-Critical S1-Blocker&quot; list"/>
+      <action name="select">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:DataPool" dpName="dpString(&quot;UnclassifiedS4MinorS3NormalS2MajorS1CriticalS1Blocker&quot;)" elementType="Datapool" initialValue="S3-Normal"/>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:Comment" value="// Select the owner from the list" elementType="Comment"/>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="list_owner" type="SelectGuiSubitemTestObject" role="List" elementType="TestObject" domain="Html" controlName="owner" topLevelWindow="//@topLevelWindows.3">
+      <clearscript test="select the &quot;owner&quot; list"/>
+      <action name="select">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:DataPool" dpName="dpString(&quot;owner&quot;)" elementType="Datapool" initialValue="Unassigned"/>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:Comment" value="//Select the priority of the defect from the list" elementType="Comment"/>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="list_unassignedP3LowP2MediumP1" type="SelectGuiSubitemTestObject" role="List" elementType="TestObject" domain="Html" controlName="Unassigned P3-Low P2-Medium P1-High" topLevelWindow="//@topLevelWindows.3">
+      <clearscript test="select the &quot;Unassigned P3-Low P2-Medium P1-High&quot; list"/>
+      <action name="select">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:DataPool" dpName="dpString(&quot;UnassignedP3LowP2MediumP1High&quot;)" elementType="Datapool" initialValue="Unassigned"/>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:Comment" value="// Select the due date from the calendar field. This is a dojo calendar" elementType="Comment"/>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="text_widget_dijit_form_DateTex" type="TextGuiTestObject" role="Text" elementType="TestObject" domain="Html" controlName="widget_dijit_form_DateTextBox_0" topLevelWindow="//@topLevelWindows.3">
+      <clearscript test="setText the &quot;widget_dijit_form_DateTextBox_0&quot; variable into the &quot;widget_dijit_form_DateTextBox_0&quot; textbox"/>
+      <action name="setText">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:DataPool" dpName="dpString(&quot;widget_dijit_form_DateTextBox_0&quot;)" elementType="Datapool" initialValue=""/>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:Comment" value="//Select the value for the Found In field from the list" elementType="Comment"/>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="list_unassignedCustomerUseInte" type="SelectGuiSubitemTestObject" role="List" elementType="TestObject" domain="Html" controlName="Unassigned Customer Use (Internal) Customer Use (External) Devel" topLevelWindow="//@topLevelWindows.3">
+      <clearscript test="select the &quot;Unassigned Customer Use (Internal) Customer Use (External) Devel&quot; list"/>
+      <action name="select">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:DataPool" dpName="dpString(&quot;UnassignedCustomerUseInternalCustomerUseExternalDevel&quot;)" elementType="Datapool" initialValue="Unassigned"/>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="document_newWorkItemChangeAndC" type="DocumentTestObject" role="Document" elementType="TestObject" domain="Html" controlName="New Work Item - Change and Configuration Management" topLevelWindow="//@topLevelWindows.3">
+      <clearscript test="drag the &quot;New Work Item - Change and Configuration Management&quot; document"/>
+      <action name="drag">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="atPoint" elementType="ScriptMethod">
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="1014" elementType="Value" valueType="Integer"/>
+            </argument>
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="213" elementType="Value" valueType="Integer"/>
+            </argument>
+          </testelement>
+        </argument>
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="atPoint" elementType="ScriptMethod">
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="1011" elementType="Value" valueType="Integer"/>
+            </argument>
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="378" elementType="Value" valueType="Integer"/>
+            </argument>
+          </testelement>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:Comment" value="// Add the description for the defect" elementType="Comment"/>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="browser_htmlBrowser" flags="DEFAULT_FLAGS" type="BrowserTestObject" role="Browser" elementType="TestObject" domain="Html" controlName="htmlBrowser" topLevelWindow="//@topLevelWindows.3">
+      <clearscript test="enter &quot;Test case description herer{BKSP}...&quot; into the &quot;htmlBrowser&quot; browser"/>
+      <action name="inputKeys">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;Test case description here...&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+        </argument>
+      </action>
+      <objectAnchor elementType="Anchor">
+        <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="document_newWorkItemChangeAndC" type="DocumentTestObject" role="Document" elementType="TestObject" domain="Html" controlName="New Work Item - Change and Configuration Management"/>
+      </objectAnchor>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="document_newWorkItemChangeAndC" type="DocumentTestObject" role="Document" elementType="TestObject" domain="Html" controlName="New Work Item - Change and Configuration Management" topLevelWindow="//@topLevelWindows.3">
+      <clearscript test="drag the &quot;New Work Item - Change and Configuration Management&quot; document"/>
+      <action name="drag">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="atPoint" elementType="ScriptMethod">
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="1013" elementType="Value" valueType="Integer"/>
+            </argument>
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="396" elementType="Value" valueType="Integer"/>
+            </argument>
+          </testelement>
+        </argument>
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="atPoint" elementType="ScriptMethod">
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="1014" elementType="Value" valueType="Integer"/>
+            </argument>
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="68" elementType="Value" valueType="Integer"/>
+            </argument>
+          </testelement>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:Comment" value="//Attach a file for reference to the defect in the Links tab" elementType="Comment"/>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="link_links" type="GuiTestObject" role="Link" elementType="TestObject" domain="Html" controlName="Links" topLevelWindow="//@topLevelWindows.3">
+      <clearscript test="click the &quot;Links&quot; link"/>
+      <action name="click"/>
+    </testElements>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript.common:TopLevelWindowGroup" groupName="Upload a file for the defect" topLevelWindow="//@topLevelWindows.4">
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="html_uploadFileInput" type="GuiTestObject" role="Html" elementType="TestObject" domain="Html" controlName="uploadFileInput" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="Unsupported: TestObject ishtml_uploadFileInput Action issetProperty"/>
+      <action name="setProperty">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;.value&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+        </argument>
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:DataPool" dpName="dpString(&quot;uploadFileInput&quot;)" elementType="Datapool" initialValue=""/>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="html_uploadFileInput" type="GuiTestObject" role="Html" elementType="TestObject" domain="Html" controlName="uploadFileInput" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="click the &quot;uploadFileInput&quot; html"/>
+      <action name="click">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="atPoint" elementType="ScriptMethod">
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="208" elementType="Value" valueType="Integer"/>
+            </argument>
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="12" elementType="Value" valueType="Integer"/>
+            </argument>
+          </testelement>
+        </argument>
+      </action>
+    </testElements>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript.common:TopLevelWindowGroup" groupName="iexplore.exe: Choose File to Upload" topLevelWindow="//@topLevelWindows.5">
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="folderViewtable" type="SelectGuiSubitemTestObject" role="Table" elementType="TestObject" domain="Win" controlName="FolderView" topLevelWindow="//@topLevelWindows.5">
+      <clearscript test="click the &quot;FolderView&quot; table at text &quot;Defect_Log&quot;"/>
+      <action name="click">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="atText" elementType="ScriptMethod">
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;Defect_Log&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+            </argument>
+          </testelement>
+        </argument>
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="atPoint" elementType="ScriptMethod">
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="44" elementType="Value" valueType="Integer"/>
+            </argument>
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="9" elementType="Value" valueType="Integer"/>
+            </argument>
+          </testelement>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="openbutton" type="GuiTestObject" role="Button" elementType="TestObject" domain="Win" controlName="Open" topLevelWindow="//@topLevelWindows.5">
+      <clearscript test="click the &quot;Open&quot; button"/>
+      <action name="click">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="atPoint" elementType="ScriptMethod">
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="26" elementType="Value" valueType="Integer"/>
+            </argument>
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="5" elementType="Value" valueType="Integer"/>
+            </argument>
+          </testelement>
+        </argument>
+      </action>
+    </testElements>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript.common:TopLevelWindowGroup" groupName="Add a subscriber to the work item" topLevelWindow="//@topLevelWindows.4">
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="table_idNameSizeCreatedByDate" type="StatelessGuiSubitemTestObject" role="Table" elementType="TestObject" domain="Html" controlName="IDNameSizeCreated byDate" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="Unsupported: TestObject istable_idNameSizeCreatedByDate Action iswaitForExistence"/>
+      <action name="waitForExistence"/>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="link_addToSubscribedByList" type="GuiTestObject" role="Link" elementType="TestObject" domain="Html" controlName="Add to Subscribed By List" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="click the &quot;Add to Subscribed By List&quot; link"/>
+      <action name="click"/>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="text_htmlINPUTText2" type="TextGuiTestObject" role="Text" elementType="TestObject" domain="Html" controlName="Html.INPUT.text" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="click the &quot;Html.INPUT.text&quot; textbox"/>
+      <action name="click">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="atPoint" elementType="ScriptMethod">
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="172" elementType="Value" valueType="Integer"/>
+            </argument>
+            <argument>
+              <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="13" elementType="Value" valueType="Integer"/>
+            </argument>
+          </testelement>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="browser_htmlBrowser" flags="DEFAULT_FLAGS" type="BrowserTestObject" role="Browser" elementType="TestObject" domain="Html" controlName="htmlBrowser" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="enter &quot;prashanth &quot; into the &quot;htmlBrowser&quot; browser"/>
+      <action name="inputChars">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;prashanth&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+        </argument>
+      </action>
+      <objectAnchor elementType="Anchor">
+        <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="document_newWorkItemChangeAndC2" type="DocumentTestObject" role="Document" elementType="TestObject" domain="Html" controlName="New Work Item - Change and Configuration Management"/>
+      </objectAnchor>
+    </testElements>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript.common:TopLevelWindowGroup" groupName="htmlBrowser" topLevelWindow="//@topLevelWindows.6">
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="browser_htmlBrowser" type="BrowserTestObject" role="Browser" elementType="TestObject" domain="Html" controlName="htmlBrowser" topLevelWindow="//@topLevelWindows.6">
+      <clearscript test="enter &quot;s.&quot; into the &quot;htmlBrowser&quot; browser"/>
+      <action name="inputChars">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;s.&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+        </argument>
+      </action>
+    </testElements>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript.common:TopLevelWindowGroup" groupName="Search for a name from the list to add as a subscriber to the work item" topLevelWindow="//@topLevelWindows.4">
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="browser_htmlBrowser" flags="DEFAULT_FLAGS" type="BrowserTestObject" role="Browser" elementType="TestObject" domain="Html" controlName="htmlBrowser" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="enter &quot;{TAB}&quot; into the &quot;htmlBrowser&quot; browser"/>
+      <action name="inputKeys">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;{TAB}&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+        </argument>
+      </action>
+      <objectAnchor elementType="Anchor">
+        <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="document_newWorkItemChangeAndC2" type="DocumentTestObject" role="Document" elementType="TestObject" domain="Html" controlName="New Work Item - Change and Configuration Management"/>
+      </objectAnchor>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="browser_htmlBrowser" flags="DEFAULT_FLAGS" type="BrowserTestObject" role="Browser" elementType="TestObject" domain="Html" controlName="htmlBrowser" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="enter &quot; &quot; into the &quot;htmlBrowser&quot; browser"/>
+      <action name="inputChars">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+        </argument>
+      </action>
+      <objectAnchor elementType="Anchor">
+        <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="document_newWorkItemChangeAndC2" type="DocumentTestObject" role="Document" elementType="TestObject" domain="Html" controlName="New Work Item - Change and Configuration Management"/>
+      </objectAnchor>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="button_addAndClosesubmit" type="GuiTestObject" role="Button" elementType="TestObject" domain="Html" controlName="Add and Closesubmit" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="click the &quot;Add and Closesubmit&quot; button"/>
+      <action name="click"/>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="html_com_ibm_team_workitem_web" type="GuiTestObject" role="Html" elementType="TestObject" domain="Html" controlName="com_ibm_team_workitem_web_ui_internal_view_layout_SectionLayout_" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="Unsupported: TestObject ishtml_com_ibm_team_workitem_web Action isperformTest"/>
+      <action name="performTest">
+        <argument>
+          <testelement xsi:type="com.ibm.rational.test.ft.visualscript:VPMethod" vpname="com_ibm_team_workitem_web_ui_i_standardVP" elementType="VPMethod" type="VP_TYPE_PROPERTY"/>
+        </argument>
+      </action>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="table_htmlTable_0" type="StatelessGuiSubitemTestObject" role="Table" elementType="TestObject" domain="Html" controlName="HtmlTable_0" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="Unsupported: TestObject istable_htmlTable_0 Action iswaitForExistence"/>
+      <action name="waitForExistence"/>
+    </testElements>
+    <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ProxyMethod" name="button_savesubmit" type="GuiTestObject" role="Button" elementType="TestObject" domain="Html" controlName="Savesubmit" topLevelWindow="//@topLevelWindows.4">
+      <clearscript test="click the &quot;Savesubmit&quot; button"/>
+      <action name="click"/>
+    </testElements>
+  </testElements>
+  <topLevelWindows name="Login - Jazz Team Server: https://jazzop19.rtp.raleigh.ibm.com:9443/jazz/web" id="1.1MVRjp62er1D:cZ17n:N5GYFFu:8WV" testElements="//@testElements.2/@testElements.0 //@testElements.2/@testElements.1 //@testElements.2/@testElements.2"/>
+  <topLevelWindows name="Project Areas - Change and Configuration Management: https://jazzop19.rtp.raleigh.ibm.com:9443/jazz/web" id="N.1MVRjp62er1D:cZ17n:N5GYFFu:8WV" testElements="//@testElements.3/@testElements.0"/>
+  <topLevelWindows name="Project Dashboard: Rational Functional Tester - Change and Configuration Management#action=com.ibm.team.dashboard.viewDashboard: https://jazzop19.rtp.raleigh.ibm.com:9443/jazz/web/projects/Rational%20Functional%20Tester#action=com.ibm.team.dashboard.viewDashboard" id="8.1MVRjp62er1D:cZ17n:N5GYFFu:8WV" testElements="//@testElements.4/@testElements.0 //@testElements.4/@testElements.1"/>
+  <topLevelWindows name=" New Work Item - Change and Configuration Management: https://jazzop19.rtp.raleigh.ibm.com:9443/jazz/web/projects/Rational%20Functional%20Tester#action=com.ibm.team.workitem.newWorkItem&amp;type=defect&amp;ts=13112308090000" id="Y.1MVRjp62er1D:cZ17n:N5GYFFu:8WV" testElements="//@testElements.5/@testElements.1 //@testElements.5/@testElements.3 //@testElements.5/@testElements.5 //@testElements.5/@testElements.7 //@testElements.5/@testElements.9 //@testElements.5/@testElements.11 //@testElements.5/@testElements.12 //@testElements.5/@testElements.14 //@testElements.5/@testElements.15 //@testElements.5/@testElements.17"/>
+  <topLevelWindows name="New Work Item - Change and Configuration Management: https://jazzop19.rtp.raleigh.ibm.com:9443/jazz/web/projects/Rational%20Functional%20Tester#action=com.ibm.team.workitem.newWorkItem&amp;ts=13112308090000&amp;tab=links" id="13.1MVRjp62er1D:cZ17n:N5GYFFu:8WV" testElements="//@testElements.6/@testElements.0 //@testElements.6/@testElements.1 //@testElements.8/@testElements.0 //@testElements.8/@testElements.1 //@testElements.8/@testElements.2 //@testElements.8/@testElements.3 //@testElements.10/@testElements.0 //@testElements.10/@testElements.1 //@testElements.10/@testElements.2 //@testElements.10/@testElements.3 //@testElements.10/@testElements.4 //@testElements.10/@testElements.5"/>
+  <topLevelWindows name="iexplore.exe: Choose File to Upload" id="1T.1MVRjp62er1D:cZ17n:N5GYFFu:8WV" testElements="//@testElements.7/@testElements.0 //@testElements.7/@testElements.1"/>
+  <topLevelWindows name="htmlBrowser" id="0.1MVRjp62er1D:cZ17n:N5GYFFu:8WV" testElements="//@testElements.9/@testElements.0"/>
+</com.ibm.rational.test.ft.visualscript:RFTScript>

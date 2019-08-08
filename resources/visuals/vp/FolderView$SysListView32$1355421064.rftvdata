@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VomData L=".VomData">
+  <vomtdatas L=".Vector">
+    <E L=".VomVpTestData">
+      <vomvptd>selected</vomvptd>
+      <vomvpnl>wpf.selector.datavp_selecteditem</vomvpnl>
+      <vomvptdata L=".TestDataList">
+        <Data L=".MaskedPropSet">
+          <MP L=".MProp">
+            <Prop>ordered</Prop>
+            <Val Z="True" />
+            <Mask>True</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>elementCount</Prop>
+            <Val I="0" />
+            <Mask>False</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>data</Prop>
+            <Val L=".TestDataElementList" />
+            <Mask>False</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>elementCount</Prop>
+            <Val I="0" />
+            <Mask>False</Mask>
+          </MP>
+        </Data>
+      </vomvptdata>
+    </E>
+    <E L=".VomVpTestData">
+      <vomvptd>contents</vomvptd>
+      <vomvpnl>net.listview.datavp_contents</vomvpnl>
+      <vomvptdata L=".TestDataList">
+        <Data L=".MaskedPropSet">
+          <MP L=".MProp">
+            <Prop>ordered</Prop>
+            <Val Z="True" />
+            <Mask>True</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>elementCount</Prop>
+            <Val I="21" />
+            <Mask>False</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>data</Prop>
+            <Val L=".TestDataElementList">
+              <E L=".TestDataElement">
+                <E>My Documents</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>My Computer</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>My Network Places</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>Mozilla Firefox</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>WinMerge</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>.jazz5</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>Adobe Flash Builder 4 Plugin</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>CLMProjects</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>CLMProjects_logs</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>Project1</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>Project1_logs</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>Smoke_App</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>Defect_Log</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>Firefox Setup 4.0.1</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>FlexProjects.rftvdtr</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>Perl Express</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>perle</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>PeSetup25</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>ProcessExplorer</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>UltraISO</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>WinMerge-2.12.4-Setup</E>
+                <Mask>False</Mask>
+              </E>
+            </Val>
+            <Mask>False</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>elementCount</Prop>
+            <Val I="21" />
+            <Mask>False</Mask>
+          </MP>
+        </Data>
+      </vomvptdata>
+    </E>
+  </vomtdatas>
+  <vompdatas L=".Hashtable" />
+</VomData>

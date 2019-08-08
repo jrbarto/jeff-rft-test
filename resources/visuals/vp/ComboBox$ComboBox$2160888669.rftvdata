@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VomData L=".VomData">
+  <vomtdatas L=".Vector">
+    <E L=".VomVpTestData">
+      <vomvptd>list</vomvptd>
+      <vomvpnl>sap.control.datavp_list</vomvpnl>
+      <vomvptdata L=".TestDataList">
+        <Data L=".MaskedPropSet">
+          <MP L=".MProp">
+            <Prop>ordered</Prop>
+            <Val Z="True" />
+            <Mask>True</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>elementCount</Prop>
+            <Val I="2" />
+            <Mask>False</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>data</Prop>
+            <Val L=".TestDataElementList">
+              <E L=".TestDataElement">
+                <E>My Recent Documents</E>
+                <Mask>False</Mask>
+              </E>
+              <E L=".TestDataElement">
+                <E>Desktop</E>
+                <Mask>False</Mask>
+              </E>
+            </Val>
+            <Mask>False</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>elementCount</Prop>
+            <Val I="2" />
+            <Mask>False</Mask>
+          </MP>
+        </Data>
+      </vomvptdata>
+    </E>
+    <E L=".VomVpTestData">
+      <vomvptd>selected</vomvptd>
+      <vomvpnl>sap.combobox.datavp_listselected</vomvpnl>
+      <vomvptdata L=".TestDataText">
+        <Data L=".MaskedPropSet">
+          <MP L=".MProp">
+            <Prop>data</Prop>
+            <Val>Desktop</Val>
+            <Mask>False</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>ignoreCase</Prop>
+            <Val Z="False" />
+            <Mask>True</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>whiteSpaceMode</Prop>
+            <Val L=".TextWhiteSpace">
+              <Mode>0</Mode>
+            </Val>
+            <Mask>True</Mask>
+          </MP>
+        </Data>
+      </vomvptdata>
+    </E>
+  </vomtdatas>
+  <vompdatas L=".Hashtable" />
+</VomData>

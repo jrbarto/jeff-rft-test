@@ -1,0 +1,5390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ObjectMap L=".ObjectMap">
+  <Attribute L=".Attribute">
+    <Name>.NextId</Name>
+    <Value>146</Value>
+  </Attribute>
+  <Attribute L=".Attribute">
+    <Name>.LastSharedId</Name>
+    <Value>-1</Value>
+  </Attribute>
+  <Attribute L=".Attribute">
+    <Name>.TopObjs</Name>
+    <Value L=".TopLevelIds">
+      <Id>0.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+    </Value>
+  </Attribute>
+  <Attribute L=".Attribute">
+    <Name>.MtoSet</Name>
+    <Value L=".ObjectMapSet">
+      <MTO L=".MTO">
+        <Id>0.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ChooseFileToUpload</Name>
+        <SimpleName>Choose File to Upload</SimpleName>
+        <Parent />
+        <TO>TopLevelSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>#32770</Class>
+        <Role>Window</Role>
+        <Proxy>TopLevelWindowProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>0</X>
+              <Y>0</Y>
+              <W>563</W>
+              <H>419</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ChooseFileToUpload$#32770$3332559076</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.processName</Key>
+          <Val L=".processName">
+            <ProcessName>iexplore.exe</ProcessName>
+          </Val>
+          <Wt>100</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Choose File to Upload</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Choose File to Upload</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>LookIn</Name>
+        <SimpleName>Look &amp;in</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Static</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>10</X>
+              <Y>41</Y>
+              <W>86</W>
+              <H>13</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>LookIn$Static$361457611</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Look in:</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Look in:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>1.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>3.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>1.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>4.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>1.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>5.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>LookIn</Name>
+        <SimpleName>Look in</SimpleName>
+        <Parent>1.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Statictext</Class>
+        <Role>Label</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>10</X>
+              <Y>41</Y>
+              <W>86</W>
+              <H>13</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>LookIn$.Statictext$1719342059</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Look in:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>6.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>1.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>7.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>1.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>8.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>1.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>9.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ComboBox</Name>
+        <SimpleName>ComboBox</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>TextSelectGuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>ComboBox</Class>
+        <Role>ComboBox</Role>
+        <Proxy>ComboBoxProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>103</X>
+              <Y>37</Y>
+              <W>261</W>
+              <H>22</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ComboBox$ComboBox$2160888669</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Look in:</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Look in:</Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#datadrive</Key>
+          <Val L=".VOMDataDrive">
+            <mName>Select</mName>
+            <dpInitial>Desktop</dpInitial>
+            <dpEnumLiteral L=".Vector">
+              <E>My Recent Documents</E>
+              <E>Desktop</E>
+            </dpEnumLiteral>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>A.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>9.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>B.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>9.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>C.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>9.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>D.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ComboListBox</Name>
+        <SimpleName>ComboListBox</SimpleName>
+        <Parent>9.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Combobox</Class>
+        <Role>ComboBox</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>103</X>
+              <Y>37</Y>
+              <W>261</W>
+              <H>22</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ComboListBox$.Combobox$882935863</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Look in:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>E.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Open</Name>
+        <SimpleName>Open</SimpleName>
+        <Parent>D.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>345</X>
+              <Y>39</Y>
+              <W>17</W>
+              <H>18</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Open$.Pushbutton$1743715927</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Open</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Open</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>F.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>9.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>G.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>9.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>H.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>9.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>I.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Static</Name>
+        <SimpleName>Static</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Static</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>376</X>
+              <Y>37</Y>
+              <W>120</W>
+              <H>23</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Static$Static$1063244109</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>J.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ToolbarWindow32</Name>
+        <SimpleName>ToolbarWindow32</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>ToolbarWindow32</Class>
+        <Role>ToolBar</Role>
+        <Proxy>ToolbarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>376</X>
+              <Y>37</Y>
+              <W>120</W>
+              <H>23</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ToolbarWindow32$ToolbarWindow32$610552818</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>K.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>J.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>L.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>J.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>M.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>J.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>N.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Toolbar</Name>
+        <SimpleName>Toolbar</SimpleName>
+        <Parent>J.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Toolbar</Class>
+        <Role>ToolBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>376</X>
+              <Y>37</Y>
+              <W>120</W>
+              <H>23</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Toolbar$.Toolbar$3221207429</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>O.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>GoToLastFolderVisited</Name>
+        <SimpleName>Go To Last Folder Visited</SimpleName>
+        <Parent>N.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>376</X>
+              <Y>37</Y>
+              <W>23</W>
+              <H>22</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>GoToLastFolderVisited$.Pushbutton$2884492247</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Go To Last Folder Visited</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Go To Last Folder Visited</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>P.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>UpOneLevel</Name>
+        <SimpleName>Up One Level</SimpleName>
+        <Parent>N.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>399</X>
+              <Y>37</Y>
+              <W>23</W>
+              <H>22</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>UpOneLevel$.Pushbutton$3598455213</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Up One Level</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Up One Level</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>Q.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>CreateNewFolder</Name>
+        <SimpleName>Create New Folder</SimpleName>
+        <Parent>N.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>422</X>
+              <Y>37</Y>
+              <W>23</W>
+              <H>22</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>CreateNewFolder$.Pushbutton$3604291567</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>2</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Create New Folder</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Create New Folder</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>R.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ViewMenu</Name>
+        <SimpleName>View Menu</SimpleName>
+        <Parent>N.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>445</X>
+              <Y>37</Y>
+              <W>30</W>
+              <H>22</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ViewMenu$.Pushbutton$1384909618</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>3</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>View Menu</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>View Menu</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>S.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>J.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>T.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>J.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>U.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>J.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>V.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ToolbarWindow32</Name>
+        <SimpleName>ToolbarWindow32</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>ToolbarWindow32</Class>
+        <Role>ToolBar</Role>
+        <Proxy>ToolbarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>10</X>
+              <Y>66</Y>
+              <W>87</W>
+              <H>338</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ToolbarWindow32$ToolbarWindow32$1399028580</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>W.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>V.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>X.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>V.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>Y.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>V.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>Z.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Toolbar</Name>
+        <SimpleName>Toolbar</SimpleName>
+        <Parent>V.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Toolbar</Class>
+        <Role>ToolBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>10</X>
+              <Y>66</Y>
+              <W>87</W>
+              <H>338</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Toolbar$.Toolbar$3221207429</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>a.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>MyRecentDocuments</Name>
+        <SimpleName>My Recent Documents</SimpleName>
+        <Parent>Z.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>10</X>
+              <Y>66</Y>
+              <W>87</W>
+              <H>65</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>MyRecentDocuments$.Pushbutton$3791643581</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>My Recent Documents</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>My Recent Documents</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>b.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Desktop</Name>
+        <SimpleName>Desktop</SimpleName>
+        <Parent>Z.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>10</X>
+              <Y>131</Y>
+              <W>87</W>
+              <H>65</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Desktop$.Pushbutton$754197152</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Desktop</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Desktop</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>c.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>MyDocuments</Name>
+        <SimpleName>My Documents</SimpleName>
+        <Parent>Z.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>10</X>
+              <Y>196</Y>
+              <W>87</W>
+              <H>65</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>MyDocuments$.Pushbutton$1825539283</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>2</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>My Documents</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>My Documents</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>d.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>MyComputer</Name>
+        <SimpleName>My Computer</SimpleName>
+        <Parent>Z.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>10</X>
+              <Y>261</Y>
+              <W>87</W>
+              <H>65</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>MyComputer$.Pushbutton$1116020248</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>3</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>My Computer</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>My Computer</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>e.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>MyNetworkPlaces</Name>
+        <SimpleName>My Network Places</SimpleName>
+        <Parent>Z.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>10</X>
+              <Y>326</Y>
+              <W>87</W>
+              <H>65</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>MyNetworkPlaces$.Pushbutton$1924709715</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>4</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>My Network Places</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>My Network Places</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>f.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>V.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>g.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>V.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>h.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>V.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>i.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ListBox</Name>
+        <SimpleName>ListBox</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>SelectGuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>ListBox</Class>
+        <Role>List</Role>
+        <Proxy>SiebelNavDropProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>103</X>
+              <Y>66</Y>
+              <W>450</W>
+              <H>283</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ListBox$ListBox$3989045924</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>j.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>SHELLDLL_DefView</Name>
+        <SimpleName>SHELLDLL_DefView</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>SHELLDLL_DefView</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>103</X>
+              <Y>66</Y>
+              <W>450</W>
+              <H>283</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>SHELLDLL$DefView$SHELLDLL$DefView$980030785</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>k.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>FolderView</Name>
+        <SimpleName>FolderView</SimpleName>
+        <Parent>j.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>SelectGuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>SysListView32</Class>
+        <Role>Table</Role>
+        <Proxy>ListViewProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>103</X>
+              <Y>66</Y>
+              <W>450</W>
+              <H>283</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>FolderView$SysListView32$1355421064</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>l.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>k.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>m.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>k.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>n.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>k.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>o.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>List</Name>
+        <SimpleName>List</SimpleName>
+        <Parent>k.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.List</Class>
+        <Role>List</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>105</X>
+              <Y>68</Y>
+              <W>446</W>
+              <H>279</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>List$.List$3825626486</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>p.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>k.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>q.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>k.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>r.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>k.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>s.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>j.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>t.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>j.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>u.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>j.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>v.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>j.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>w.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>j.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>x.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>j.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>y.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>FileName</Name>
+        <SimpleName>File &amp;name</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Static</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>105</X>
+              <Y>363</Y>
+              <W>87</W>
+              <H>13</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>FileName$Static$916748429</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>2</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>File name:</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>File name:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>z.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>y.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>10.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>y.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>11.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>y.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>12.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>FileName</Name>
+        <SimpleName>File name</SimpleName>
+        <Parent>y.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Statictext</Class>
+        <Role>Label</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>105</X>
+              <Y>363</Y>
+              <W>87</W>
+              <H>13</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>FileName$.Statictext$3733596764</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>File name:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>13.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>y.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>14.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>y.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>15.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>y.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>16.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ComboBoxEx32</Name>
+        <SimpleName>ComboBoxEx32</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>ComboBoxEx32</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>199</X>
+              <Y>358</Y>
+              <W>246</W>
+              <H>22</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ComboBoxEx32$ComboBoxEx32$114852785</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>File name:</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>File name:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>17.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ComboBox</Name>
+        <SimpleName>ComboBox</SimpleName>
+        <Parent>16.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>TextSelectGuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>ComboBox</Class>
+        <Role>ComboBox</Role>
+        <Proxy>ComboBoxProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>199</X>
+              <Y>358</Y>
+              <W>246</W>
+              <H>22</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ComboBox$ComboBox$1969715433</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>File name:</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>File name:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>18.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Edit</Name>
+        <SimpleName>Edit</SimpleName>
+        <Parent>17.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>TextGuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Edit</Class>
+        <Role>Text</Role>
+        <Proxy>EditProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>202</X>
+              <Y>363</Y>
+              <W>224</W>
+              <H>14</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Edit$Edit$2935680511</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>File name:</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>File name:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>19.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>18.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1A.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>18.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1B.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>18.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1C.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>FileName</Name>
+        <SimpleName>File name</SimpleName>
+        <Parent>18.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Text</Class>
+        <Role>Text</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>202</X>
+              <Y>363</Y>
+              <W>224</W>
+              <H>14</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>FileName$.Text$4263861847</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>File name:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1D.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>18.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1E.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>18.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1F.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>18.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1G.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>17.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1H.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>17.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1I.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>17.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1J.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ComboListBox</Name>
+        <SimpleName>ComboListBox</SimpleName>
+        <Parent>17.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Combobox</Class>
+        <Role>ComboBox</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>199</X>
+              <Y>358</Y>
+              <W>246</W>
+              <H>22</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ComboListBox$.Combobox$2497362008</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>File name:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1K.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Open</Name>
+        <SimpleName>Open</SimpleName>
+        <Parent>1J.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>426</X>
+              <Y>360</Y>
+              <W>17</W>
+              <H>18</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Open$.Pushbutton$1743715927</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Open</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Open</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1L.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>17.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1M.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>17.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1N.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>17.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1O.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>16.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1P.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>16.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1Q.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>16.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1R.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>16.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1S.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>16.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1T.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>16.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1U.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>FilesOfType</Name>
+        <SimpleName>Files of &amp;type</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Static</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>105</X>
+              <Y>389</Y>
+              <W>87</W>
+              <H>13</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>FilesOfType$Static$3574214792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>3</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Files of type:</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Files of type:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1V.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>1U.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1W.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>1U.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1X.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>1U.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1Y.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>FilesOfType</Name>
+        <SimpleName>Files of type</SimpleName>
+        <Parent>1U.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Statictext</Class>
+        <Role>Label</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>105</X>
+              <Y>389</Y>
+              <W>87</W>
+              <H>13</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>FilesOfType$.Statictext$1676600265</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Files of type:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1Z.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>1U.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1a.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>1U.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1b.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>1U.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1c.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ComboBox</Name>
+        <SimpleName>ComboBox</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>TextSelectGuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>ComboBox</Class>
+        <Role>ComboBox</Role>
+        <Proxy>ComboBoxProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>199</X>
+              <Y>386</Y>
+              <W>246</W>
+              <H>21</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ComboBox$ComboBox$159699018</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Files of type:</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Files of type:</Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#datadrive</Key>
+          <Val L=".VOMDataDrive">
+            <mName>Select</mName>
+            <dpInitial>All Files (*.*)</dpInitial>
+            <dpEnumLiteral L=".Vector">
+              <E>All Files (*.*)</E>
+              <E>Pictures (*.gif;*.jpg;*.jpeg;*.png)</E>
+              <E>HTML (*.htm;*.html)</E>
+            </dpEnumLiteral>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1d.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>1c.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1e.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>1c.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1f.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>1c.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1g.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ComboListBox</Name>
+        <SimpleName>ComboListBox</SimpleName>
+        <Parent>1c.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Combobox</Class>
+        <Role>ComboBox</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>199</X>
+              <Y>386</Y>
+              <W>246</W>
+              <H>21</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ComboListBox$.Combobox$1051323866</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Files of type:</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1h.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Open</Name>
+        <SimpleName>Open</SimpleName>
+        <Parent>1g.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>426</X>
+              <Y>388</Y>
+              <W>17</W>
+              <H>17</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Open$.Pushbutton$1743715927</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Open</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Open</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1i.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>1c.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1j.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>1c.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1k.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>1c.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1l.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>OpenAsReadOnly</Name>
+        <SimpleName>Open as &amp;read-only</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Button</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>199</X>
+              <Y>383</Y>
+              <W>240</W>
+              <H>13</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>OpenAsReadOnly$Button$3523589688</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Open as read-only</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Open as read-only</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1m.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>_Open</Name>
+        <SimpleName>&amp;Open</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Button</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>478</X>
+              <Y>358</Y>
+              <W>75</W>
+              <H>23</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>$Open$Button$815594367</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Open</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Open</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1n.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>1m.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1o.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>1m.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1p.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>1m.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1q.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Open</Name>
+        <SimpleName>Open</SimpleName>
+        <Parent>1m.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>478</X>
+              <Y>358</Y>
+              <W>75</W>
+              <H>23</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Open$.Pushbutton$1743715927</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Open</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Open</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1r.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>1m.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1s.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>1m.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1t.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>1m.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1u.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Cancel</Name>
+        <SimpleName>Cancel</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Button</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>478</X>
+              <Y>384</Y>
+              <W>75</W>
+              <H>23</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Cancel$Button$3653934293</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>2</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Cancel</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Cancel</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1v.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>1u.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1w.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>1u.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1x.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>1u.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1y.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Cancel</Name>
+        <SimpleName>Cancel</SimpleName>
+        <Parent>1u.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>478</X>
+              <Y>384</Y>
+              <W>75</W>
+              <H>23</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Cancel$.Pushbutton$3776260879</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Cancel</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Cancel</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1z.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>1u.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>20.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>1u.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>21.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>1u.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>22.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>_Help</Name>
+        <SimpleName>&amp;Help</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Button</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>478</X>
+              <Y>384</Y>
+              <W>75</W>
+              <H>23</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>$Help$Button$1783733903</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>3</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Help</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Help</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>23.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ScrollBar</Name>
+        <SimpleName>ScrollBar</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>ScrollBar</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>542</X>
+              <Y>398</Y>
+              <W>17</W>
+              <H>17</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ScrollBar$ScrollBar$2646625507</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>24.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>23.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>25.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>23.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>26.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>23.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>27.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>23.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>542</X>
+              <Y>398</Y>
+              <W>17</W>
+              <H>17</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>28.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>23.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>29.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>23.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2A.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>23.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$1424310840</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2B.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2C.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>4</X>
+              <Y>4</Y>
+              <W>555</W>
+              <H>26</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2D.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>IME</Name>
+        <SimpleName>IME</SimpleName>
+        <Parent>2C.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>IME$.Pushbutton$1056193789</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>IME</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>IME</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2E.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Minimize</Name>
+        <SimpleName>Minimize</SimpleName>
+        <Parent>2C.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Minimize$.Pushbutton$3824459760</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Minimize</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Minimize</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2F.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Maximize</Name>
+        <SimpleName>Maximize</SimpleName>
+        <Parent>2C.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Maximize$.Pushbutton$304494664</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>2</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Maximize</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Maximize</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2G.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>ContextHelp</Name>
+        <SimpleName>Context help</SimpleName>
+        <Parent>2C.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>509</X>
+              <Y>4</Y>
+              <W>25</W>
+              <H>25</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>ContextHelp$.Pushbutton$3834501291</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>3</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Context help</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Context help</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2H.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Close</Name>
+        <SimpleName>Close</SimpleName>
+        <Parent>2C.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Pushbutton</Class>
+        <Role>Button</Role>
+        <Proxy>ButtonProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>534</X>
+              <Y>4</Y>
+              <W>25</W>
+              <H>25</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Close$.Pushbutton$2203441682</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>4</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Close</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Close</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2I.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Application</Name>
+        <SimpleName>Application</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Application$.Menubar$3419774979</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Application</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Application</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2J.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2K.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2L.29QuSc7kC5FhAQ1bgYGEUWN</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>0.29QuSc7kC5FhAQ1bgYGEUWN</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+    </Value>
+  </Attribute>
+  <Attribute L=".Attribute">
+    <Name>.PropSet</Name>
+    <Value L=".MapPropertySet">
+      <MapProperty L=".MapProperty">
+        <Name>rt.html_table_mapping_policy</Name>
+        <Value>Original</Value>
+      </MapProperty>
+    </Value>
+  </Attribute>
+</ObjectMap>
